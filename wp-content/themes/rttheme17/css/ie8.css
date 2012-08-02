@@ -1,0 +1,19 @@
+/* Fixes for ie8 */
+	.box img{ 
+		width:auto !important;
+		max-width:100% !important;
+	}
+
+	.portfolio.box img, .product.box img{
+		max-width:none !important;
+		width:100% !important;
+	}
+
+	/* search form */
+	.search-bar fieldset{
+		width:290px !important; 
+	}
+
+	.search-bar .search_text{
+		line-height:30px !important; 
+	}
