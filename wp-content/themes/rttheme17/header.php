@@ -89,6 +89,17 @@ if($full_width_background && $background_image){
 	<?php 
 		echo do_shortcode("[rt_social_media_icons]");
 	?><!-- / end ul .social_media_icons -->
+
+	<!-- search -->
+	<div class="search-bar top">
+		<form action="<?php echo wpml_get_home_url(); ?>/" method="get" class="showtextback">
+			<fieldset>
+				<input type="image" src="<?php echo THEMEURI; ?>/images/pixel.gif" class="searchsubmit" alt="<?php _e('Search','rt_theme');?>" />
+				<input type="text" class="search_text showtextback" name="s" id="s" value="<?php _e('Search','rt_theme');?>" />							
+			</fieldset>
+		</form>
+	</div>
+	<!-- / search-->
 </div>
 <?php $TopSocialIcons = "true";?>
 <?php endif;?>
