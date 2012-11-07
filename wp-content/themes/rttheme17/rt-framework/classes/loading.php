@@ -216,11 +216,11 @@ class RTTheme{
 	
 	//Available Social Media Icons
 	public $social_media_icons=array(
-				"RSS"         => "rss",
 				"Email"       => "email_icon",
+				"Facebook"    => "facebook",
 				"Twitter"     => "twitter",
-				"Flickr"      => "flickr",
-				"Facebook"    => "facebook", 
+				"RSS"         => "rss",
+				"Flickr"      => "flickr", 
 				"AIM"         => "aim",
 				"Apple"       => "apple",
 				"Appstore"    => "appstore",
